@@ -58,20 +58,9 @@ model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accur
 history = model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=count_epoch)
 
 
-# In[ ]:
-
-
-history.history['accuracy']
-
-
-# In[ ]:
-
-
-history.history['accuracy']
-
-
-# In[ ]:
-
+accuracy_file = open('accuracy.txt', 'w+')
+accuracy_file.writelines(history.history['accuracy'][::-1])
+accuracy_file.close()
 
 
 
