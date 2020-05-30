@@ -59,7 +59,7 @@ Pre-requisite:
 
 <h3>Task 3 :: Train the model using the pulled code, initial params and run the container using image name decided in task 2</h3>
 
-![Run the container with python model and params](https://github.com/mukul-shaunik/ml-try1/blob/master/task3_1.png)
+![Run the container with python model and params](https://github.com/mukul-shaunik/ml-try1/blob/master/task3_2.png)
 
 
 <h3>Task 4 :: Retrain model if accuracy is less then 80%</h3>
